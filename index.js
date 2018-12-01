@@ -1,9 +1,9 @@
-const express = require('express')
-const app = express()
-const port = 3000
+const container = require('./src/container');
+const app = container.resolve('app');
 
-app.get('/', function (req, res) {
-  res.send('hello world')
-})
-
-app.listen(port, () => console.log(`Listening on port ${port}...`))
+app
+  .start()
+  .catch((error) => {
+    console.log(error);
+    process.exit();
+  });

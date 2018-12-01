@@ -12,6 +12,9 @@
   "author": "Guillermo Quinteros",
   "license": "ISC",
   "dependencies": {
+    "awilix": "^4.0.1",
+    "awilix-express": "^1.1.0",
+    "dotenv": "^6.1.0",
     "express": "^4.16.4"
   }
 }
