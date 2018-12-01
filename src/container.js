@@ -1,9 +1,8 @@
 const { createContainer, asClass, asFunction, asValue } = require('awilix');
 
 const config = require('../config');
-const router = require('./interfaces/http/router');
 const Application = require('./application/Application');
-const Server = require('./interfaces/http/Server');
+const Server = require('./Server');
 
 const container = createContainer();
 
