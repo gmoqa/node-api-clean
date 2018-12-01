@@ -1,0 +1,17 @@
+{
+  "name": "api-node",
+  "version": "1.0.0",
+  "description": "A Node Api Rest",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Guillermo Quinteros",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
